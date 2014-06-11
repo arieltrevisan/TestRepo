@@ -10,7 +10,7 @@ namespace TestApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine("Hola {0}", args != null && args.Length > 0 ? args[0] : "stranger");
         }
     }
 }
